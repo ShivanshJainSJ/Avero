@@ -12,13 +12,45 @@ import FounderAIPersona from '@/components/FounderAIPersona';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
-export const metadata: Metadata = {
-    title: 'AVERO | Intelligent Systems for the Next Era',
-    description: 'AVERO designs secure, scalable AI systems. From offline-first AGI operating systems to enterprise energy controllers.',
+export const metadata = {
+    title: "Avero – AI-Powered Startup Solutions",
+    description:
+        "Avero is an AI-powered platform delivering intelligent automations, agent systems, and business solutions for modern startups.",
+    keywords: [
+        "Avero",
+        "AI startup",
+        "AI automation",
+        "AI agents",
+        "business automation",
+        "startup tools",
+        "Avero AI"
+    ],
+    metadataBase: new URL("https://averoai.tech"),
     openGraph: {
-        title: 'AVERO | Intelligent Systems',
-        description: 'Building the future of AI infrastructure.',
-        images: ['/images/hero-illustration.svg'],
+        title: "Avero – AI Powered Startup Tools",
+        description:
+            "Avero delivers intelligent AI systems and automations for businesses and founders.",
+        url: "https://averoai.tech",
+        siteName: "Avero",
+        images: [
+            {
+                url: "/og-image.png", // place your image in /public
+                width: 1200,
+                height: 630,
+            },
+        ],
+        locale: "en_US",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Avero – AI for Startups",
+        description:
+            "Smart AI tools, automations and agents for modern founders.",
+        images: ["/og-image.png"],
+    },
+    alternates: {
+        canonical: "https://averoai.tech",
     },
 };
 
