@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "sitemap": "ts-node scripts/generate-sitemap.ts"
+    "sitemap": "ts-node scripts/generate-sitemap.ts",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.6.0",
