@@ -10,7 +10,7 @@ const nextConfig = {
     ],
   },
   // Fixes the “metadata.metadataBase is not set” warning
-  metadataBase: new URL('http://localhost:3000'),
+  //metadataBase: new URL('http://localhost:3000'),
   eslint: {
     ignoreDuringBuilds: true,
   },
