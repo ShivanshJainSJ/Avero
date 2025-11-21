@@ -1,0 +1,23 @@
+[
+    {
+        "quarter": "Q4",
+        "year": "2024",
+        "title": "VEXO Alpha",
+        "description": "Initial release of the VEXO kernel for developer testing.",
+        "status": "completed"
+    },
+    {
+        "quarter": "Q1",
+        "year": "2025",
+        "title": "Enterprise Pilot",
+        "description": "Deployment of SECC in partner manufacturing plants.",
+        "status": "in-progress"
+    },
+    {
+        "quarter": "Q3",
+        "year": "2025",
+        "title": "VEXO Public Beta",
+        "description": "Public release of VEXO with full plugin support.",
+        "status": "planned"
+    }
+]

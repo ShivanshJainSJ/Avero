@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Shivansh Jain",
+        "role": "Founder & CEO",
+        "bio": "Visionary AI architect building the future of AGI systems. Creator of VEXO Operating System and pioneer in offline-first artificial intelligence.",
+        "image": "/images/founder.jpg",
+        "email": "sjshivanshjain@gmail.com",
+        "phone": "+91 7900921775",
+        "location": "India",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/shivansh-jain-sj/",
+            "github": "https://github.com/ShivanshJainSJ",
+            "twitter": "https://twitter.com/shivansh"
+        }
+    }
+]

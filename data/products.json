@@ -1,0 +1,167 @@
+[
+    {
+        "id": "vexo",
+        "title": "VEXO — Offline-First Multi-Agent AGI Operating System",
+        "slug": "vexo",
+        "description": "Modular offline-first AGI OS featuring autonomous agents, orchestration engine, local reasoning packs, and secure execution layers.",
+        "features": [
+            "Autonomous Agents",
+            "Orchestration Engine",
+            "Local Reasoning Packs",
+            "Secure Execution Layers",
+            "Offline-First Architecture"
+        ],
+        "specs": [
+            {
+                "name": "Architecture",
+                "value": "Decentralized Multi-Agent"
+            },
+            {
+                "name": "Security",
+                "value": "Military-Grade Encryption"
+            },
+            {
+                "name": "Latency",
+                "value": "< 1ms (Local)"
+            },
+            {
+                "name": "Compatibility",
+                "value": "x86, ARM, RISC-V"
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1000",
+        "icon": "cpu"
+    },
+    {
+        "id": "ai-posture",
+        "title": "AI Posture Detection & Correction System",
+        "slug": "ai-posture-detection",
+        "description": "Real-time posture tracking using AI-based skeletal analysis with instant correction alerts and ergonomic habit monitoring.",
+        "features": [
+            "Real-time Skeletal Tracking",
+            "Instant Correction Alerts",
+            "Ergonomic Habit Monitoring",
+            "Privacy-Preserving Analysis",
+            "Cross-Platform Integration"
+        ],
+        "specs": [
+            {
+                "name": "Accuracy",
+                "value": "99.2% Skeletal Mapping"
+            },
+            {
+                "name": "Response Time",
+                "value": "Real-time (< 30ms)"
+            },
+            {
+                "name": "Camera Support",
+                "value": "Any Webcam / RGB Camera"
+            },
+            {
+                "name": "AI Model",
+                "value": "PoseNet V2 Custom"
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?auto=format&fit=crop&q=80&w=1000",
+        "icon": "scan"
+    },
+    {
+        "id": "crop-assist",
+        "title": "CropAssist — AI Crop Recommendation Platform",
+        "slug": "crop-assist",
+        "description": "Smart crop advisory system using soil data, weather trends, and ML-based yield prediction to improve farming outcomes.",
+        "features": [
+            "Soil Data Analysis",
+            "Weather Trend Forecasting",
+            "ML-based Yield Prediction",
+            "Smart Crop Advisory",
+            "Resource Optimization"
+        ],
+        "specs": [
+            {
+                "name": "Data Sources",
+                "value": "Satellite, IoT Sensors, Weather API"
+            },
+            {
+                "name": "Prediction Horizon",
+                "value": "Up to 6 Months"
+            },
+            {
+                "name": "Soil Parameters",
+                "value": "NPK, pH, Moisture"
+            },
+            {
+                "name": "Platform",
+                "value": "Web & Mobile App"
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1625246333195-58197bd47d26?auto=format&fit=crop&q=80&w=1000",
+        "icon": "leaf"
+    },
+    {
+        "id": "secc",
+        "title": "SECC — Smart Elderly Care Companion",
+        "slug": "secc",
+        "description": "Smart elderly care companion with fall detection, vitals monitoring, medication reminders, remote caregiver alerts, and privacy-first home assistance.",
+        "features": [
+            "Fall Detection & Alerts",
+            "Vitals Monitoring",
+            "Medication Reminders",
+            "Remote Caregiver Dashboard",
+            "Privacy-First Home Assistance"
+        ],
+        "specs": [
+            {
+                "name": "Sensors",
+                "value": "LiDAR, Radar, Optical"
+            },
+            {
+                "name": "Connectivity",
+                "value": "5G / Wi-Fi 6E"
+            },
+            {
+                "name": "Battery Life",
+                "value": "48 Hours (Backup)"
+            },
+            {
+                "name": "Compliance",
+                "value": "HIPAA / GDPR"
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1000",
+        "icon": "heart-pulse"
+    },
+    {
+        "id": "sleep-predictor",
+        "title": "Sleep Pattern & Dream Mood Predictor",
+        "slug": "sleep-pattern-predictor",
+        "description": "ML-based sleep cycle analyzer and dream mood predictor using sound patterns, sleep movement signals, and behavioral correlations.",
+        "features": [
+            "Sleep Cycle Analysis",
+            "Dream Mood Prediction",
+            "Sound Pattern Recognition",
+            "Movement Signal Tracking",
+            "Behavioral Correlation Engine"
+        ],
+        "specs": [
+            {
+                "name": "Input Methods",
+                "value": "Audio, Wearable Data"
+            },
+            {
+                "name": "Analysis Type",
+                "value": "Deep Learning (RNN/LSTM)"
+            },
+            {
+                "name": "Reporting",
+                "value": "Daily Sleep Score & Mood Log"
+            },
+            {
+                "name": "Integration",
+                "value": "HealthKit / Google Fit"
+            }
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1511296933631-18b4378916eb?auto=format&fit=crop&q=80&w=1000",
+        "icon": "moon"
+    }
+]
