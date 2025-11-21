@@ -17,16 +17,37 @@ export default function Home() {
 
     return (
         <>
+            {/* ✅ SEO STRUCTURED DATA */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        name: "Avero",
+                        url: "https://averoai.tech",
+                        logo: "https://averoai.tech/logo.png",
+                        sameAs: [
+                            "https://instagram.com/yourbrand",
+                            "https://linkedin.com/company/yourbrand"
+                        ]
+                    }),
+                }}
+            />
+
             {showIntro && (
                 <CinematicIntro onComplete={() => setShowIntro(false)} />
             )}
+
             <Hero />
 
             <SectionWrapper id="products" className="bg-surface/50">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Our <span className="text-gradient">Solutions</span></h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                        Our <span className="text-gradient">Solutions</span>
+                    </h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-                        Cutting-edge technology designed to solve the world&apos;s most complex challenges.
+                        Cutting-edge technology designed to solve the world's most complex challenges.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -46,12 +67,14 @@ export default function Home() {
             <SectionWrapper className="bg-background">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div>
-                        <h2 className="text-3xl md:text-5xl font-bold mb-8">Why <span className="text-gradient">AVERO</span>?</h2>
+                        <h2 className="text-3xl md:text-5xl font-bold mb-8">
+                            Why <span className="text-gradient">AVERO</span>?
+                        </h2>
                         <div className="space-y-6">
                             {[
-                                { title: 'Offline-First Architecture', desc: 'Our systems are designed to operate without constant internet connectivity, ensuring reliability and privacy.' },
-                                { title: 'Enterprise Grade Security', desc: 'Military-grade encryption and localized data processing keep your sensitive information secure.' },
-                                { title: 'Scalable Intelligence', desc: 'From edge devices to massive server clusters, our AI scales seamlessly with your needs.' }
+                                { title: 'Offline-First Architecture', desc: 'Our systems operate without constant internet connectivity, ensuring reliability and privacy.' },
+                                { title: 'Enterprise Grade Security', desc: 'Military-grade encryption and localized processing keep your data secure.' },
+                                { title: 'Scalable Intelligence', desc: 'From edge devices to clusters, our AI scales with your needs.' }
                             ].map((feature, i) => (
                                 <div key={i} className="flex gap-4">
                                     <div className="mt-1">
@@ -81,7 +104,9 @@ export default function Home() {
 
             <SectionWrapper>
                 <div className="text-center">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Ready to <span className="text-gradient">Get Started?</span></h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                        Ready to <span className="text-gradient">Get Started?</span>
+                    </h2>
                     <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
                         Join us in building the future of intelligent systems.
                     </p>
